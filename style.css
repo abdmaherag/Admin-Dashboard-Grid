@@ -81,6 +81,21 @@ span{
     border-radius: 20px;
     flex-grow: 1;
 }
+.top-right-bar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.profile-top{
+    width: 40px;
+    border-radius: 50%;
+}
+.notification-icon{
+    width: 30px;
+}
+.top-name{
+    font-weight: 800;
+}
 
 .projects-container{
     background-color: var(--background-color);
