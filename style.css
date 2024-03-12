@@ -60,6 +60,26 @@ span{
 
 .top-bar-container{
     background-color:var(--secondary-color) ;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2 , 1fr);
+    padding: 18px 34px 18px 34px;
+}
+.search-icon{
+    width: 25px;
+    
+}
+.search{
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+
+}
+.search-bar{
+    background-color: rgba(185, 184, 184, 0.863);
+    border: none;
+    border-radius: 20px;
+    flex-grow: 1;
 }
 
 .projects-container{
