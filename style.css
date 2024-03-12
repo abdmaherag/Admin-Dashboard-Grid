@@ -67,7 +67,7 @@ span{
     grid-area: 2 / 2 / 3 / 2;
     padding: 24px;
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 4fr 1.5fr;
 
 }
 .cards-container{
@@ -85,4 +85,30 @@ span{
     border-left: 10px var(--accent-color) solid;
     border-radius: 16px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+/* 
+.announcements-trending-container{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr); 
+    adding: 0px 24px 0 24px; 
+    row-gap: 30PX; 
+} */
+.annoucements-container,
+.trending-container{
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.annoucements-container > div > p{
+    font-size: 13px;
+    width: calc(100% - 14px);
+}
+.annoucements-container > hr {
+    color: grey;
+    margin: 18px 0 18px 0;
+}
+.annoucements-container > div > div{
+    font-weight: 700;
+    margin-bottom: 4px;
 }
