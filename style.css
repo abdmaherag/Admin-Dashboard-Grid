@@ -86,6 +86,7 @@ span{
     display: flex;
     justify-content: end;
     align-items: center;
+    gap: 10px;
 }
 .profile-top{
     width: 40px;
@@ -97,7 +98,37 @@ span{
 .top-name{
     font-weight: 800;
 }
+.greet-cell{
+    display: flex;
+    align-items: center;
+}
+.greet-profile{
+    width: 70px;
+    border-radius: 50%;
+}
+.greet-text{
+    font-weight: 600;
+    font-size: 14px;
+}
+.large-greet{
+    font-weight: 800;
+    font-size: 24px;
+}
 
+.buttons{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+button{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 24px;
+    font-weight: 600;
+    width: 90px;
+}
 .projects-container{
     background-color: var(--background-color);
     grid-area: 2 / 2 / 3 / 2;
